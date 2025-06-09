@@ -1,1 +1,3 @@
 # 11-microservices-e-commerce-webpage-project
+
+By deploying your 11-microservices e-commerce platform on an Amazon EKS (Elastic Kubernetes Service) cluster and integrating Jenkins for CI/CD, you can automate the full delivery pipeline: Jenkins, pulls code via GitHub webhooks, builds Docker images, pushes them to Amazon dockerhub, and then triggers kubectl commands—using Kubernetes credentials stored in Jenkins—to roll out updates to the EKS cluster; this setup ensures consistent, automated builds, tests, and zero-downtime deployments across environments using branching strategies and modular pipelines
